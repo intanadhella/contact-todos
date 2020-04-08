@@ -64,7 +64,10 @@ document.getElementById('simpanContact').addEventListener('click',function(event
 })
 
 const hapus = id => {
-    axios.delete(`http://localhost:3000/contacts/${id}`)
+    let confirm = window.confirm("Anda yakin?")
+    if (confirm) {
+        axios.delete(`http://localhost:3000/contacts/${id}`)
+    }
 }
 
 const ubah = id => {
