@@ -10,31 +10,31 @@ axios.get('http://localhost:3000/contacts')
             const itemHTML = `<li class="card mb-3">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-3">Name</div>
-                        <div class="col-md-9">: ${name}</div>
+                        <div class="col-sm-3">Name</div>
+                        <div class="col-sm-9">: ${name}</div>
                     </div>
                     <div class="row">
                     <br>
-                        <div class="col-md-3">Address</div>
-                        <div class="col-md-9">: ${address}</div>
+                        <div class="col-sm-3">Address</div>
+                        <div class="col-sm-9">: ${address}</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">Email</div>
-                        <div class="col-md-9">: ${email}</div>
+                        <div class="col-sm-3">Email</div>
+                        <div class="col-sm-9">: ${email}</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">Phone</div>
-                        <div class="col-md-9">: ${phone}</div>
+                        <div class="col-sm-3">Phone</div>
+                        <div class="col-sm-9">: ${phone}</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">Company</div>
-                        <div class="col-md-9">: ${company}</div>
+                        <div class="col-sm-3">Company</div>
+                        <div class="col-sm-9">: ${company}</div>
                     </div>
                     <div class="row pt-2">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <button onclick="ubah(${id})" class="btn btn-primary btn-sm btn-block"><i class="fas fa-user-edit"></i></button>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <button onclick="hapus(${id})" class="btn btn-warning btn-sm btn-block"><i class="fas fa-trash-alt"></i></button>
                         </div>
                     </div>
