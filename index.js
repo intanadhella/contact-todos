@@ -7,7 +7,7 @@ axios.get('http://localhost:3000/contacts')
 
         response.data.forEach(item => {
             const {name, address, email, phone, company, id} = item;
-            const itemHTML = `<li class="card mb-3">
+            const itemHTML = `<li class="card shadow mb-3">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-3">Name</div>
